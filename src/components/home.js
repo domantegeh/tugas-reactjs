@@ -24,7 +24,7 @@ export function Portofolio({kategori, judul, keterangan, tujuan, gambar, suka}) 
     };
 
     return (
-        <section className="container px-6 py-4 mx-auto">
+        <section className="container px-6 py-4 mx-auto mt-8">
             <div className="grid gap-6 mb-2 md:grid-cols-2 lg:grid-cols-1">
                 <div className="flex items-center p-4 bg-white border-2 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800">
                     <div className="p-3 mr-4 text-white rounded">
@@ -52,7 +52,7 @@ export function Kontak() {
             {/* intro content */}
             <div className="flex items-center flex-wrap m-20 p-10">
                 <div className="w-full md:w-1/2">
-                    <img className="mx-auto shadow-xl rounded-full h-48 w-48 max-w-150-px bg-red-500" src="./hero.png" alt="Monitoring" />
+                    <img className="mx-auto shadow-xl rounded-full h-48 w-48 max-w-150-px" src="./hero.png" alt="Monitoring" />
                 </div>
                 <div className="w-full md:w-1/2">
                     <h4 className="text-3xl text-gray-800 font-bold mb-3">Halo, Saya Ida Nyoman Tegeh Adnyana !</h4>
@@ -74,7 +74,7 @@ export function Kontak() {
                             <path
                             d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
                             fill-rule="evenodd"
-                            clip-rule="evenodd" />
+                            clip-rule="evenodd" /><a href="https://en.wikipedia.org/wiki/Arrow"></a>
                         </svg>
                         {/* Facebook */}
                         <svg
